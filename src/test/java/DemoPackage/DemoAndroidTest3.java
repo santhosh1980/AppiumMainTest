@@ -253,7 +253,7 @@ public class DemoAndroidTest3 {
 		
 		driver.findElement(By.id("android:id/button2")).click();
 		
-		
+		Thread.sleep(3000);
 		
 		//Click list preference
 		
@@ -277,7 +277,7 @@ public class DemoAndroidTest3 {
 		
 		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1]")).click();
 				
-		
+		Thread.sleep(3000);
 		
 		//Click list preference
 		
@@ -301,7 +301,7 @@ public class DemoAndroidTest3 {
 		
 		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[2]")).click();
 					
-		
+		Thread.sleep(3000);
 		
 		//Click list preference
 		

@@ -26,7 +26,7 @@ public class DemoAndroidTest1 {
 		/*1) How to install .apk (Android mobile app) on real device through command prompt?
 				Ensure environment variables are set for Android SDK, so that adb command can run from any folder
 				ANDROID_HOME = C:\Users\U35035\AppData\Local\Android\Sdk
-				abd kill-server
+				adb kill-server
 				adb start-server
 				Go to apk file directory and run 
 				adb install ApiDemos.apk
@@ -55,9 +55,9 @@ public class DemoAndroidTest1 {
 		
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
 		
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 		
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "ZY322KKVTS");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "SSUGF6U8QKQ48PBQ");
 		
 		
 		
